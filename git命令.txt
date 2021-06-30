@@ -56,3 +56,14 @@ git reset --hard HEAD ^/~num
 
 查询版本退回日志
 git reflog
+
+删除过的文件恢复(已经上传到本地仓库的)
+git checkout -- filename/path
+
+#查看本地仓库的文件
+git ls-flies
+
+#删除本地仓库里的文件
+git rm filename/path
+
+
