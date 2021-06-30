@@ -77,3 +77,11 @@ $git remote add sjm https://github.com/sjmss/git202106301228.git
 #提交本地仓库到远程仓库
 git push -u sjm master
 
+#ssh上传(生成秘钥）
+ssh-keygen -t rsa -C "1726687537@qq.com"
+
+#根据文件夹将公钥内容粘贴到github 设置里SSH and GPG keys（最后不要空格删除）
+#测试链接
+ssh -T git@github.com #成功内容Hi sjmss! You've successfully authenticated, but GitHub does not provide shell access.
+
+
