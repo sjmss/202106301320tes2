@@ -71,3 +71,9 @@ git rm filename/path
 #远程github下载
 git clone https://github.com/sjmss/-.git #https:改成下载不了git：
 
+#链接远程仓库	sjm别名+https地址
+$git remote add sjm https://github.com/sjmss/git202106301228.git  
+
+#提交本地仓库到远程仓库
+git push -u sjm master
+
