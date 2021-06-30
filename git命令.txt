@@ -51,3 +51,8 @@ git log
 简化日志
 git log -5 --pretty=oneline
 
+版本回退
+git reset --hard HEAD
+
+查询版本退回日志
+git reflog
