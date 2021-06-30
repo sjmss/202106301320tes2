@@ -2,6 +2,24 @@
 git config --global user.name "username"
 git config --global user.email 1111@qq.com
 
+设置中文防止乱码
+git config --global core.quotepath false 
+
+git config --global gui.encoding utf-8
+
+git config --global i18n.commit.encoding utf-8 
+
+git config --global i18n.logoutputencoding utf-8 
+
+# bash 环境下
+
+export LESSCHARSET=utf-8
+
+# cmd环境下：
+
+set LESSCHARSET=utf-8
+#设置环境变量LESSCHARSET=utf-8
+
 查看用户配置
 git config --list
 
@@ -17,6 +35,12 @@ git add filename/path
 
 移除删除暂存区的文件/文件路径
 git restore --staged filename/path
+
+移除所有暂存区的文件
+git reset HEAD
+
+查看未提交到暂存区的文件差异
+git diff HEAD -- filename/path
 
 将暂存区的更改记录提交到存储库
 git commit

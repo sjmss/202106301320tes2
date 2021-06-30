@@ -3,3 +3,5 @@ git init
 
 查询暂存区和工作区状态
 git stauts
+
+修改一下
