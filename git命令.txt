@@ -48,3 +48,6 @@ git commit
 提交日志
 git log
 
+简化日志
+git log -5 --pretty=oneline
+
