@@ -52,7 +52,7 @@ git log
 git log -5 --pretty=oneline
 
 版本回退
-git reset --hard HEAD
+git reset --hard HEAD ^/~num
 
 查询版本退回日志
 git reflog
