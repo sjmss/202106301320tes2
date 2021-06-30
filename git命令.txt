@@ -63,9 +63,11 @@ git checkout -- filename/path
 #查看本地仓库的文件
 git ls-flies
 
-#删除本地仓库里的文件
+#删除本地仓库里的文件--如果工作区有，也会同时删除工作区
 git rm filename/path
 
-#
+#octotree谷歌工具
 
+#远程github下载
+git clone https://github.com/sjmss/-.git #https:改成下载不了git：
 
