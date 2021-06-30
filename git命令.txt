@@ -1,0 +1,26 @@
+设置用户名和邮箱地址
+git config --global user.name "username"
+git config --global user.email 1111@qq.com
+
+查看用户配置
+git config --list
+
+
+初始化本地仓库
+git init
+
+查询暂存区和工作区状态
+git status
+
+添加文件/文件路径到暂存区
+git add filename/path
+
+移除删除暂存区的文件/文件路径
+git restore --staged filename/path
+
+将暂存区的更改记录提交到存储库
+git commit
+
+提交日志
+git log
+
