@@ -84,4 +84,5 @@ ssh-keygen -t rsa -C "1726687537@qq.com"
 #测试链接
 ssh -T git@github.com #成功内容Hi sjmss! You've successfully authenticated, but GitHub does not provide shell access.
 
-
+去除配置属性
+unset 
