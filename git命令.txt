@@ -132,6 +132,23 @@ git log --graph --prett=oneline
 拉取分支最新内容（修改前拉取）
 git pull
 
+标签
+查看标签
+git tag
+
+添加标签
+git tag tag_name
+
+添加标签指定标签说明
+git tag -a v_1.1 -m '版本更新'
+
+推送标签到远程
+git push sjm2 v_1.1
+
+删除远程标签
+git push sjm2 :refs/tags/v_1.1
+
+
 
 
 
