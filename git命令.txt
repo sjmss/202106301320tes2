@@ -86,3 +86,41 @@ ssh -T git@github.com #成功内容Hi sjmss! You've successfully authenticated, but 
 
 去除配置属性
 unset 
+
+分支（本地）
+查看分支
+git branch
+
+新建分支并且切换到分支
+git checkout -b branch01
+
+切换分支
+git checkout branch01
+
+分支合并到主干上（在master使用）
+git merge branch01
+
+删除分支
+git branch -d branch01
+
+分支重命名大写m强制重命名
+git branch -m branch02 leaf01
+
+远程
+
+查看本地和远程的分支
+git branch -a
+
+推送本地分支到远程
+git push 远程名 本地分支名
+
+删除远程分支(本地还在)
+git push 远程仓库名 :leaf01
+
+拉取远程分支到本地创建分支
+git checkout -b leaf02 sjm2/leaf01
+
+查询远程仓库最新状态
+git fetch
+
+test add
