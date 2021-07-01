@@ -129,5 +129,8 @@ cat 文件名
 查看冲突日志图表
 git log --graph --prett=oneline
 
+本分支单独提交
+commit git
+
 
 
