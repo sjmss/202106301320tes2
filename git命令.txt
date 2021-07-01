@@ -130,7 +130,7 @@ cat 文件名
 git log --graph --prett=oneline
 
 本分支单独提交
-commit git
+commit 修改
 
 
 
