@@ -129,8 +129,8 @@ cat 文件名
 查看冲突日志图表
 git log --graph --prett=oneline
 
-本分支单独提交
-commit git
+拉取分支最新内容（修改前拉取）
+git pull
 
 
 
