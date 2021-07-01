@@ -123,3 +123,11 @@ git checkout -b leaf02 sjm2/leaf01
 查询远程仓库最新状态
 git fetch
 
+查看文件内容
+cat 文件名
+
+查看冲突日志图表
+git log --graph --prett=oneline
+
+
+
